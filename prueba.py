@@ -37,7 +37,7 @@ for i in range(M) :
         SUMA = SUMA + MONTO[i][j]
         PROM = SUMA / N
     print("Promedio de ventas del año", i + 1, "es", PROM)
-
+sda
     if PROM > MAX :
         MAX = PROM
         ANIO = i + 1
