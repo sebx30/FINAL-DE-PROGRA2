@@ -14,7 +14,7 @@ for i in range(M) :
         MONTO[i].append(venta)
 
 print("\nSUCURSAL CON MÁS VENTAS: ")
-print("----------------------------")
+print("----------------------------")            
 MAX = 0
 for j in range(N) :
     SUMA = 0
@@ -37,7 +37,7 @@ for i in range(M) :
         SUMA = SUMA + MONTO[i][j]
         PROM = SUMA / N
     print("Promedio de ventas del año", i + 1, "es", PROM)
-sda
+
     if PROM > MAX :
         MAX = PROM
         ANIO = i + 1
