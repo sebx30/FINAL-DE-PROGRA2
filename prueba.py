@@ -14,7 +14,7 @@ for i in range(M) :
         MONTO[i].append(venta)
 
 print("\nSUCURSAL CON MÁS VENTAS: ")
-print("----------------------------")
+print("----------------------------")            
 MAX = 0
 for j in range(N) :
     SUMA = 0
