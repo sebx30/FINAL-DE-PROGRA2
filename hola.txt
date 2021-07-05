@@ -1,1 +1,10 @@
-hola mundo
+print("-----------------------------------")
+"Matriz: Sucursales de una empresa"
+print("-----------------------------------")
+MONTO = []
+print("Ingrese número de sucursales y años")
+N = int(input("Número de sucursales: "))
+M = int(input("Número de Años: "))
+
+for i in range(M):
+MONTO.append([])
